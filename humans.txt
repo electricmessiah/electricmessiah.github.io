@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Hugo Stamp -- @hugostamp
+
+# TECHNOLOGY COLOPHON
+
+	Hugo + AWS S3/CF site hosting
+    HTML5, CSS3 (SCSS)
+    jQuery
+    grunt

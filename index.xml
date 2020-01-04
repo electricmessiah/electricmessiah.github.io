@@ -1,11 +1,11 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
-   <title>Hugo-Stamp</title>
+   <title>Hugo Stamp</title>
    <link>https://electricmessiah.github.io/</link>
-   <description>Recent content on Hugo-Stamp</description>
+   <description>Recent content on Hugo Stamp</description>
    <generator>Hugo -- gohugo.io</generator>
-   <copyright>Copyright &amp;copy; 2019 - DR</copyright>
+   <copyright>© Copyright 2019 to Present</copyright>
    <lastBuildDate>Tue, 14 Nov 2017 10:57:55 -0500</lastBuildDate>
    
        <atom:link href="https://electricmessiah.github.io/index.xml" rel="self" type="application/rss+xml" />

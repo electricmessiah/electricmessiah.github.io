@@ -3,71 +3,100 @@
 <html lang="en">
 
 <head>
-  <title>Hugo-Stamp</title>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="Stamp: A Hugo theme for creative and technical writing." />
-<meta name="author" content="Michael Henderson" /><meta property="og:title" content="Creating a New Theme" />
-<meta property="og:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://electricmessiah.github.io/posts/creating-a-new-theme/" />
-<meta property="article:published_time" content="2014-09-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2014-09-28T00:00:00+00:00" />
+  <title>Hugo Stamp</title>
+  
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="Stamp: A Hugo theme for Technology, Design and Photography." />
+<meta name="author" content="Michael Henderson" />
+<meta name="copyright" content="© Copyright 2019 to Present">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="375">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta property="twitter:account_id" content="624683">
+<meta name="theme-color" content="#1d78bd">
+<meta name="apple-mobile-web-app-status-bar-style" content="#1d78bd">
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="x-dns-prefetch-control" content="off">
+
+  <link rel="alternate" type="application/rss+xml+xml" href="https://electricmessiah.github.io/posts/index.xml" title="Hugo Stamp" /><link type="text/plain" rel="author" href="https://electricmessiah.github.io/humans.txt">
+<link rel="canonical" href="https://electricmessiah.github.io/posts/">
+<link rel="stylesheet" href="https://electricmessiah.github.io/css/stamp_screen.css?v=173" type="text/css"/><link rel='stylesheet' href='https://electricmessiah.github.io/css/stamp_screen.css'><link rel='stylesheet' href='https://electricmessiah.github.io/css/stamp_fonts.css'>
+<link rel="alternate icon" href="https://electricmessiah.github.io/favicon.ico"/>  
+<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7355974/798628/css/fonts.css" />
+<script defer src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script defer src="https://electricmessiah.github.io/js/stamp.js?v=1"></script>
+<script defer src="https://electricmessiah.github.io/js/scripts.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-00000-0"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-00000-0');</script>
+
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="Stamp: A Hugo theme for Technology, Design and Photography." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://electricmessiah.github.io/posts/" />
+<meta property="og:updated_time" content="2017-11-14T10:57:55-05:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Creating a New Theme"/>
-<meta name="twitter:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content."/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content="Stamp: A Hugo theme for Technology, Design and Photography."/>
 
-<meta name="generator" content="Hugo 0.61.0" />
-    
+<meta name="generator" content="Hugo 0.61.0" /><div class="fit-vids-style" id="fit-vids-style" style="display: none;">­ 
+  <style>  
+  .fluid-width-video-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0;
+  }
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-  <script src="https://kit.fontawesome.com/b76b73e8e8.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
-  <link rel="stylesheet" type="text/css" href="https://electricmessiah.github.io/css/styles.css" /></head>
+  .fluid-width-video-wrapper iframe,
+  .fluid-width-video-wrapper object,
+  .fluid-width-video-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  </style> 
+</div></head>
 
 <body>
+  
+  <div id="fb-root" style="display:none;"></div>
+  <div id="cover_wrap" class="clearfix">
+    <header id="masthead" class="clearfix">
+      <hgroup class="intro">
+        <h1>
+          <a href="https://electricmessiah.github.io/" class="home">Hugo Stamp</a>
+          <span class="handle"><a href="http://twitter.com/hugostamp" rel="me" target="_blank">@HugoStamp</a></span>
+        </h1>
+      </hgroup>
+      <nav id="cover">
+        <ul id="headernav" class="list-none">
+          <li><a href="https://electricmessiah.github.io/about/" title="About" class="about"><svg viewBox="0 0 8 8" width="14" height="14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#aaa"><path d="M4 0c-1.105 0-2 1.119-2 2.5s.895 2.5 2 2.5 2-1.119 2-2.5-.895-2.5-2-2.5zm-2.094 5c-1.07.04-1.906.92-1.906 2v1h8v-1c0-1.08-.836-1.96-1.906-2-.54.61-1.284 1-2.094 1-.81 0-1.554-.39-2.094-1z"></path></svg> <span>About</span></a></li>
+          <li><a href="https://electricmessiah.github.io/stuff-i-use/" title="Stuff I use and Camera Gear" class="posts "><svg width="18px" height="14px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M0,0 L0,12 L16,12 L16,0 L0,0 L0,0 Z M10,10 C7.8,10 6,8.2 6,6 C6,3.8 7.8,2 10,2 C12.2,2 14,3.8 14,6 C14,8.2 12.2,10 10,10 L10,10 L10,10 Z M2.49538898,1 C2.2217932,1 2,1.23193359 2,1.5 L2,1.5 C2,1.77614237 2.2157526,2 2.49538898,2 L4.50461102,2 C4.7782068,2 5,1.76806641 5,1.5 L5,1.5 C5,1.22385763 4.7842474,1 4.50461102,1 L2.49538898,1 L2.49538898,1 Z" id="path-1"></path></defs><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g><mask id="mask-2" sketch:name="path-1" fill="#aaa"><use xlink:href="#path-1"></use></mask><g id="path-1"></g><path d="M1.99406028,0 C0.892771196,-1.22267649e-16 -7.6784401e-18,0.901950359 0,2.0085302 L5.53927709e-17,9.9914698 C6.30899513e-17,11.1007504 0.894513756,12 1.99406028,12 L14.0059397,12 C15.1072288,12 16,11.0980496 16,9.9914698 L16,2.0085302 C16,0.899249601 15.1054862,1.4556607e-15 14.0059397,1.33358652e-15 L1.99406028,0 L1.99406028,0 Z" fill="#aaa" mask="url(#mask-2)"></path><circle id="name:lens_style:accent_1_" fill="#aaa" cx="10" cy="6" r="3"></circle></g></g></svg> <span>Gear</span></a></li>
+          <li><a href="https://electricmessiah.github.io/photos/" title="Photos" class="photos "><svg fill="none" viewBox="0 4 23 14" height="17" width="22" xmlns="http://www.w3.org/2000/svg"><path id="nofill" d="M0 0h24v24H0z" fill="none"></path><path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z" id="mtns" fill="#a6a8ab"></path></svg> <span>Photos</span></a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <div id="progress-bar-container"><span class="stammy-bar" style="background: rgb(33, 150, 243); display: none; width: 13.0589px;"></span></div>
+ 
+  <script type="text/javascript">
+    var res = "500, 750, 1000, 1280, 1500, 2000, 2500, 3000";
+    var supported_res = res.split(', ');
+    var supported_wbp = "true";
+    var toc = "true";
+    var pagetype = "postex";
+  </script>
+  
   <div id="container">
     <header>
-      <h1>
-                <a href="https://electricmessiah.github.io/">Hugo-Stamp</a>
-            </h1>
-
-      <ul id="social-media">
-             <li>
-               <a href="https://github.com/electricmessiah" title="GitHub">
-               <i class="fab fa-github fa-lg"></i>
-               </a>
-             </li>
-             <li>
-               <a href="https://twitter.com/electricmessiah" title="Twitter">
-               <i class="fab fa-twitter fa-lg"></i>
-               </a>
-             </li>
-      </ul>
-      
-      <p><em>A Hugo theme for creative and technical writing</em></p>
-      
+ 
     </header>
-
-    
-<nav>
-    <ul>
-        
-        <li>
-            <a class="" href="https://electricmessiah.github.io/posts/">
-                <i class="fa-li fa  fa-lg"></i><span>Posts</span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="" href="https://electricmessiah.github.io/about/">
-                <i class="fa-li fa  fa-lg"></i><span>About Hugo</span>
-            </a>
-        </li>
-        
-    </ul>
-</nav>
 
     <main>
 
@@ -925,16 +954,63 @@ $ vi themes/zafta/layouts/_default/single.html
 
 
 
-</main>
-    <footer>
-        <h6>Copyright © 2019 - DR |
-            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
-            <a href="https://electricmessiah.github.io/index.xml">Subscribe </a></h6>
-    </footer>
+        <footer id="darkfooter" class="clearfix">
+          <div class="content_wrap">
+            <ul class="clearfix list-none">
+              
+              <li><a href="https://electricmessiah.github.io/" title="Home"><span>«</span> Home</a></li>
+              
+              <div class="rlink">
+                <li><a href="https://electricmessiah.github.io/about/" title="About">About</a></li>
+                <li><a href="https://electricmessiah.github.io/posts/" title="Posts">Posts</a></li>
+                <li><a href="https://electricmessiah.github.io/photos/" title="Photos">Photos</a></li>
+                <li><a href="https://electricmessiah.github.io/stuff-i-use/" title="Photo Gear">Gear</a></li>
+                <li><a href="https://electricmessiah.github.io/index.xml" title="Subscribe via Email">Subscribe</a></li>
+              </div>
+            </ul>
+          </div>
+        </footer>
+
+        <script type="text/javascript">
+          var _gauges = _gauges || [];
+          (function() {
+            var t   = document.createElement('script');
+            t.type  = 'text/javascript';
+            t.async = true;
+            t.id    = 'gauges-tracker';
+            t.setAttribute('data-site-id', '#FAKENEWS');
+            t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+            t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(t, s);
+          })();
+        </script>
+        <script src="https://electricmessiah.github.io/js/one.js"></script>
+        <script src="https://electricmessiah.github.io/js/i.js" type="module"></script>
+        
+          
+          <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="pswp__bg"></div>
+          <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+              <div class="pswp__top-bar">
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+              </div>
+              <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+              <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+              <div class="pswp__caption"><div class="pswp__caption__center"></div></div>
+            </div>
+          </div>
+        </div>
+        </footer>
 </div>
-<script src="https://electricmessiah.github.io/js/scripts.js"></script>
+
+
 
 </body>
-
 </html>
-
